@@ -1,0 +1,36 @@
+# 图表配置文件
+
+# 图表默认配置
+chart:
+  figsize: [12, 6]  # 默认画布大小（宽, 高）
+  dpi: 300          # 分辨率
+  style: seaborn-v0_8-whitegrid  # 样式主题
+
+# 颜色配置（财务专用配色方案）
+colors:
+  revenue: '#2E86AB'   # 营业收入 - 蓝色
+  profit: '#06A77D'    # 净利润 - 绿色
+  cost: '#D62246'      # 成本 - 红色
+  cash: '#F18F01'      # 现金流 - 橙色
+
+# 字体配置
+font:
+  family: SimHei       # 中文字体
+  size: 12             # 默认字体大小
+  title_size: 14       # 标题字体大小
+
+# 网格配置
+grid:
+  enabled: true
+  alpha: 0.3           # 透明度
+
+# 图例配置
+legend:
+  location: upper left
+  fontsize: 11
+
+# 导出配置
+export:
+  format: png          # 默认导出格式
+  dpi: 300             # 导出分辨率
+  bbox_inches: tight   # 自动裁剪空白
