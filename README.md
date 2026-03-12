@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-
 # Matplotlib 教学包使用说明
-=======
-# Matplotlib 教学包使用说明1
->>>>>>> ca6aa72 (second save)
 
 ## 🎯 快速开始
 
