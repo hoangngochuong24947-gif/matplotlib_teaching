@@ -1,14 +1,20 @@
+<<<<<<< HEAD
 
 # Matplotlib 教学包使用说明
+=======
+# Matplotlib 教学包使用说明1
+>>>>>>> ca6aa72 (second save)
 
 ## 🎯 快速开始
 
 ### 1. 安装依赖
+
 ```bash
 pip install matplotlib pandas numpy
 ```
 
 ### 2. 运行第一个示例
+
 ```bash
 cd matplotlib_teaching/foundation
 python 01_basic_plotting.py
@@ -52,28 +58,32 @@ matplotlib_teaching/
 ## 📚 学习路径
 
 ### 路径 1：完整学习（推荐）
+
 1. **第一层（2-3天）**：基础语法
+
    - 运行 `foundation/` 下所有文件
    - 背诵核心函数
    - 查阅速查表
-
 2. **第二层（2-3天）**：模块联合
+
    - 学习 Pandas 集成
    - 学习 NumPy 集成
    - 练习数据处理
-
 3. **第三层（2-3天）**：高级功能
+
    - 探索交互式图表
    - 学习 3D 可视化
    - 了解动画制作
-
 4. **第四层（3-5天）**：项目实战
+
    - 研究项目结构
    - 运行示例代码
    - 用自己的数据测试
 
 ### 路径 2：快速通道（3-5天）
+
 只学习核心内容：
+
 1. `foundation/01_basic_plotting.py`
 2. `foundation/02_customization.py`
 3. `integration/01_pandas_integration.py`
@@ -82,6 +92,7 @@ matplotlib_teaching/
 ## 🎓 知识点分类
 
 ### 【必须背诵】
+
 - `plt.plot()` - 折线图
 - `plt.scatter()` - 散点图
 - `plt.bar()` - 柱状图
@@ -92,12 +103,14 @@ matplotlib_teaching/
 - 中文显示设置
 
 ### 【熟悉掌握】
+
 - `plt.hist()` - 直方图
 - `plt.boxplot()` - 箱线图
 - DataFrame.plot() - Pandas 绘图
 - NumPy 数组操作
 
 ### 【了解即可】
+
 - 3D 图表
 - 交互式组件
 - 动画制作
@@ -105,6 +118,7 @@ matplotlib_teaching/
 ## 💻 运行示例
 
 ### 基础层
+
 ```bash
 cd foundation
 python 01_basic_plotting.py
@@ -114,6 +128,7 @@ python 04_financial_charts.py
 ```
 
 ### 联合层
+
 ```bash
 cd integration
 python 01_pandas_integration.py
@@ -121,6 +136,7 @@ python 02_numpy_integration.py
 ```
 
 ### 高级层
+
 ```bash
 cd advanced
 python 01_interactive_animation.py
@@ -128,6 +144,7 @@ python 02_3d_advanced_layout.py
 ```
 
 ### 项目层
+
 ```bash
 cd project_financial_dashboard
 python src/financial_dashboard/dashboard.py
@@ -137,20 +154,25 @@ python examples/basic_usage.py
 ## 🔧 常见问题
 
 ### Q: 中文显示为方框？
+
 A: 代码中已配置 SimHei 字体，如仍有问题可改用微软雅黑：
+
 ```python
 plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 ```
 
 ### Q: 图表不显示？
+
 A: 确保调用了 `plt.show()`
 
 ### Q: 如何保存图表？
+
 A: 使用 `plt.savefig('文件名.png', dpi=300, bbox_inches='tight')`
 
 ## 📊 项目实战使用
 
 ### 快速生成财务报告
+
 ```python
 from financial_dashboard import FinancialDashboard
 
@@ -165,6 +187,7 @@ dashboard.generate_full_report(save_path='report.png')
 ```
 
 ### 加载自己的数据
+
 ```python
 # 从 CSV 加载
 dashboard = FinancialDashboard('your_data.csv')
