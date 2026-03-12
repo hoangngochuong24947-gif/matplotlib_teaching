@@ -1,0 +1,14 @@
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 5 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.status.txt
+	git_status.txt
+
